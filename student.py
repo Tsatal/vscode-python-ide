@@ -6,6 +6,6 @@ class Student:
     def status(self):
         return f"Ο/Η {self.name} έχει βαθμό {self.grade}"
 
-# Δημιουργία αντικειμένου
+# Δημιουργία αντικειμένου.
 s1 = Student("Γιώργος", 18)
 print(s1.status())
